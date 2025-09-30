@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Mooli&family=Noto+Sans:wght@400;500&family=Righteous&display=swap');
+
 body {
     height: 100vh;
     margin: 0;
@@ -6,16 +8,45 @@ body {
     align-items: center;
     position: relative;
     overflow: hidden;
+    background-image: linear-gradient(to top , rgb(58, 1, 58), rgb(110, 29, 110));
 }
 
 #Nem_pense {
     position: absolute;
-    padding: 10px 20px;
+    padding: 5px 10px;
     font-size: 18px;
     cursor: pointer;
 }
 
 .central {
+    padding: 5%;
+    padding-bottom: 9%;
+    justify-content: space-between;
     text-align: center;
-    justify-items: center;
+    justify-items:center;
+    background-image: linear-gradient(to bottom , rgb(253, 245, 245), white) ;
+    border-radius: 50px;
+    color: rgb(243, 6, 85);
+    font-size: 18px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.central button {
+    display: flex;
+    margin: 5px;
+    padding: 5px 10px;
+    border-style: none;
+    background-color: rgb(255, 174, 215);
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+.textoInterativo {
+    color: rgb(255, 174, 215);
+}
+
+.botoes {
+    padding-top: 12%;
 }
